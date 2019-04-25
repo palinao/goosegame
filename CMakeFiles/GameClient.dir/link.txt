@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GameClient.dir/GameClient.c.o  -o GameClient 

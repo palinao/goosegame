@@ -1,0 +1,135 @@
+\hypertarget{_game_server_8c}{}\section{Game\+Server.\+c File Reference}
+\label{_game_server_8c}\index{Game\+Server.\+c@{Game\+Server.\+c}}
+
+
+Server-\/side file of a Goose Game.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$unistd.\+h$>$}\\*
+{\ttfamily \#include $<$sys/types.\+h$>$}\\*
+{\ttfamily \#include $<$sys/socket.\+h$>$}\\*
+{\ttfamily \#include $<$netinet/in.\+h$>$}\\*
+{\ttfamily \#include $<$signal.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Game\+Utility.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_game_server_8c_a50fd212158bb47830ff08dff35621916}{closing\+\_\+handler} (int sign)
+\begin{DoxyCompactList}\small\item\em The handler for the server shutdown. \end{DoxyCompactList}\item 
+void \hyperlink{_game_server_8c_abcf54e14dee261b591ee04546c07819c}{setting\+\_\+handler} (int sign)
+\begin{DoxyCompactList}\small\item\em The handler for the client shutdown. \end{DoxyCompactList}\item 
+void \hyperlink{_game_server_8c_a0c7ba85fb887248e14ce6b4264350ec1}{close\+With\+Error} (char $\ast$message)
+\begin{DoxyCompactList}\small\item\em Sets the flag for exit with the error on ouput. \end{DoxyCompactList}\item 
+int {\bfseries main} (void)\hypertarget{_game_server_8c_a840291bc02cba5474a4cb46a9b9566fe}{}\label{_game_server_8c_a840291bc02cba5474a4cb46a9b9566fe}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char {\bfseries c} =\textquotesingle{}Y\textquotesingle{}\hypertarget{_game_server_8c_adc08ed1554f35803d229aeaf11216b3f}{}\label{_game_server_8c_adc08ed1554f35803d229aeaf11216b3f}
+
+\item 
+int {\bfseries win} =0\hypertarget{_game_server_8c_a7fee7b546595edcbee920757b6309386}{}\label{_game_server_8c_a7fee7b546595edcbee920757b6309386}
+
+\item 
+int {\bfseries server\+Socket}\hypertarget{_game_server_8c_a106cd1d02a334c78f546d2897a1b939c}{}\label{_game_server_8c_a106cd1d02a334c78f546d2897a1b939c}
+
+\item 
+int {\bfseries client\+Socket}\hypertarget{_game_server_8c_adc5475d507e3d713ad405bbeb6eb41e7}{}\label{_game_server_8c_adc5475d507e3d713ad405bbeb6eb41e7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Server-\/side file of a Goose Game. 
+
+\begin{DoxyAuthor}{Author}
+Luca Pietrogrande 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}
+
+
+\subsection{Function Documentation}
+\index{Game\+Server.\+c@{Game\+Server.\+c}!close\+With\+Error@{close\+With\+Error}}
+\index{close\+With\+Error@{close\+With\+Error}!Game\+Server.\+c@{Game\+Server.\+c}}
+\subsubsection[{\texorpdfstring{close\+With\+Error(char $\ast$message)}{closeWithError(char *message)}}]{\setlength{\rightskip}{0pt plus 5cm}void close\+With\+Error (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{message}
+\end{DoxyParamCaption}
+)}\hypertarget{_game_server_8c_a0c7ba85fb887248e14ce6b4264350ec1}{}\label{_game_server_8c_a0c7ba85fb887248e14ce6b4264350ec1}
+
+
+Sets the flag for exit with the error on ouput. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & the string to show on standard output.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Luca Pietrogrande 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}
+\index{Game\+Server.\+c@{Game\+Server.\+c}!closing\+\_\+handler@{closing\+\_\+handler}}
+\index{closing\+\_\+handler@{closing\+\_\+handler}!Game\+Server.\+c@{Game\+Server.\+c}}
+\subsubsection[{\texorpdfstring{closing\+\_\+handler(int sign)}{closing_handler(int sign)}}]{\setlength{\rightskip}{0pt plus 5cm}void closing\+\_\+handler (
+\begin{DoxyParamCaption}
+\item[{int}]{sign}
+\end{DoxyParamCaption}
+)}\hypertarget{_game_server_8c_a50fd212158bb47830ff08dff35621916}{}\label{_game_server_8c_a50fd212158bb47830ff08dff35621916}
+
+
+The handler for the server shutdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sign} & the signal to be handle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Luca Pietrogrande 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}
+\index{Game\+Server.\+c@{Game\+Server.\+c}!setting\+\_\+handler@{setting\+\_\+handler}}
+\index{setting\+\_\+handler@{setting\+\_\+handler}!Game\+Server.\+c@{Game\+Server.\+c}}
+\subsubsection[{\texorpdfstring{setting\+\_\+handler(int sign)}{setting_handler(int sign)}}]{\setlength{\rightskip}{0pt plus 5cm}void setting\+\_\+handler (
+\begin{DoxyParamCaption}
+\item[{int}]{sign}
+\end{DoxyParamCaption}
+)}\hypertarget{_game_server_8c_abcf54e14dee261b591ee04546c07819c}{}\label{_game_server_8c_abcf54e14dee261b591ee04546c07819c}
+
+
+The handler for the client shutdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sign} & the signal to be handle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Luca Pietrogrande 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\+0 
+\end{DoxySince}

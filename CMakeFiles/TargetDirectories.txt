@@ -1,0 +1,5 @@
+/Users/Luca/Desktop/Universita'/Informatica Laboratorio/GooseGame/CMakeFiles/GameUtility.dir
+/Users/Luca/Desktop/Universita'/Informatica Laboratorio/GooseGame/CMakeFiles/GameServer.dir
+/Users/Luca/Desktop/Universita'/Informatica Laboratorio/GooseGame/CMakeFiles/edit_cache.dir
+/Users/Luca/Desktop/Universita'/Informatica Laboratorio/GooseGame/CMakeFiles/rebuild_cache.dir
+/Users/Luca/Desktop/Universita'/Informatica Laboratorio/GooseGame/CMakeFiles/GameClient.dir

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -dynamiclib -Wl,-headerpad_max_install_names  -o libGameUtility.dylib -install_name @rpath/libGameUtility.dylib CMakeFiles/GameUtility.dir/GameUtility.c.o 
