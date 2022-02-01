@@ -56,5 +56,5 @@ make
   
 # Execution
   
-- Launch the `GameServer` executable, which will wait for a client incoming TCP connection request. 
+- Launch the `GameServer` executable, which will wait for an incoming TCP request. 
 - Launch the `GameClient` executable.
