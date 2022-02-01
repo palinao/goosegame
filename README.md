@@ -1,6 +1,6 @@
 # goosegame
 
-TCP Client-Server game that allows a player to confront a CPU in a two-dimensional variation of Goose game.
+TCP Client-Server game that allows a player to confront a CPU in a two-dimensional variation of The Game of The Goose.
 
 # The rules
 
