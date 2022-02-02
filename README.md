@@ -43,8 +43,9 @@ You lost, let's play another match
 ```
 
 # Compilation
+Note: Make sure [CMake](https://cmake.org/download/) is available on your machine
 
-Make sure [CMake](https://cmake.org/download/) is available on your machine
+---
 
 Run:
 
