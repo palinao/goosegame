@@ -1,10 +1,10 @@
 # goosegame
 
-TCP Client-Server game that allows a player to confront a CPU in a two-dimensional variation of The Game of The Goose.
+TCP Client-Server game that allows a user to play a CPU in a two-dimensional variation of The Game of The Goose.
 
 # The rules
 
-The aim of the game is for the Player (P) to get to the opposite corner of the field before the opponent (C) does so. The numbers on the field represents bonuses.
+The aim of the game is for the Player (P) to get to the opposite corner of the field before the opponent (C) does so. The figures on the field are bonuses that will grant additional steps in the same direction.
 
 ```
 P| | | | | | | | |C|
